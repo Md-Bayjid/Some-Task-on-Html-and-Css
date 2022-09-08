@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: monospace sans-serif ;
+
+    }
+    html,body {
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    span,p,h2 {
+        margin: 15px;
+        padding: 5px;
+    }
+    img {
+        width: 200px;
+        height: 300px;
+        border-radius: 10px 10px 0 0;
+        margin: 20px 20px;
+        object-fit: cover;
+    }
+    .container {
+        background-color: black;
+        padding: 20px;
+        overflow: auto;
+    }
+    .card {
+        float: left;
+        width: calc(32% - 20px);
+        box-shadow: 3px 2px 3px 2px whitesmoke;
+        margin: 100px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+.card:hover {
+    background-color: crimson;
+    box-shadow: none;
+    transition-duration: .5s;
+    transition-delay: .1s;
+
+}
+</style>
+<body>
+    <section class="Container">
+            <div class="card">
+                <img src="./Faysal.jpg" alt="Faysal's image"><br>
+                <span>4 day's ago</span>
+                <h2>Hey! This is Faysal.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nostrum consectetur esse at in, rem magni odit error non, corrupti dolorum nesciunt! Facere doloribus, fugiat aliquid quas eum vel deserunt!</p>
+            </div>            
+            <div class="card">
+                <img src="./Raihan.jpg" alt="Faysal's image"><br>
+                <span>4 day's ago</span>
+                <h2>Hey! This is Raihan.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nostrum consectetur esse at in, rem magni odit error non, corrupti dolorum nesciunt! Facere doloribus, fugiat aliquid quas eum vel deserunt!</p>
+            </div>            
+            <div class="card">
+                <img src="./Rafique.jpg" alt="Faysal's image"><br>
+                <span>4 day's ago</span>
+                <h2>Hey! This is Rafique.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nostrum consectetur esse at in, rem magni odit error non, corrupti dolorum nesciunt! Facere doloribus, fugiat aliquid quas eum vel deserunt!</p>
+            </div>
+    </section>
+</body>
+</html>
